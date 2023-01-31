@@ -5,10 +5,13 @@ export const Navigation =()=>{
       <nav>
         <ul>
           <li>
-            <StyledLink to='/'>Home</StyledLink>
+            <StyledLink to="/">Home</StyledLink>
           </li>
           <li>
-            <StyledLink to='events'>Events</StyledLink>
+            <StyledLink to="events">Events</StyledLink>
+          </li>
+          <li>
+            <StyledLink to="search">Search</StyledLink>
           </li>
         </ul>
       </nav>
